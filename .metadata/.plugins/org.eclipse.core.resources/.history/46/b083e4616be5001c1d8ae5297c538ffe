@@ -1,0 +1,60 @@
+package com.dept.entity;
+
+
+
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class Department {
+
+	@Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+	private Long deptId;
+	private String name;
+	private Integer totalNumberofEmployee;
+	private Long empId;
+	
+	
+	public Long getDeptId() {
+		return deptId;
+	}
+	public void setDeptId(Long deptId) {
+		this.deptId = deptId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Integer getTotalNumberofEmployee() {
+		return totalNumberofEmployee;
+	}
+	public void setTotalNumberofEmployee(Integer totalNumberofEmployee) {
+		this.totalNumberofEmployee = totalNumberofEmployee;
+	}
+	public Long getEmpId() {
+		return empId;
+	}
+	public void setEmpId(Long empId) {
+		this.empId = empId;
+	}
+	
+	public Department() {
+		
+	}
+	public Department(Long deptId, String name, Integer totalNumberofEmployee , Long empId) {
+		super();
+		this.deptId = deptId;
+		this.name = name;
+		this.totalNumberofEmployee = totalNumberofEmployee;
+		this.empId = empId;
+	}
+	
+	
+	
+	
+
+}

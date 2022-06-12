@@ -1,0 +1,108 @@
+package com.employee.entity;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Employee {
+	
+	
+
+	private Long empId;
+	private String empName;
+	private Integer age;
+	private Long Salary;
+	private String gender;
+	
+	
+	List<Department> departments  = new  ArrayList <>();
+	
+	
+	public Long getEmpId() {
+		return empId;
+	}
+
+
+	public void setEmpId(Long empId) {
+		this.empId = empId;
+	}
+
+
+	public String getEmpName() {
+		return empName;
+	}
+
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+
+
+	public Integer getAge() {
+		return age;
+	}
+
+
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+
+
+	public Long getSalary() {
+		return Salary;
+	}
+
+
+	public void setSalary(Long salary) {
+		Salary = salary;
+	}
+
+
+	public String getGender() {
+		return gender;
+	}
+
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+
+	public List<Department> getDepartments() {
+		return departments;
+	}
+
+
+	public void setDepartments(List<Department> departments) {
+		this.departments = departments;
+	}
+
+
+	public Employee() {
+		
+	}
+	public Employee(Long empId, String empName, Integer age, Long salary, String gender, List<Department> departments) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.age = age;
+		Salary = salary;
+		this.gender = gender;
+		this.departments = departments;
+	}
+
+
+	public Employee(Long empId, String empName, Integer age, Long salary, String gender) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.age = age;
+		Salary = salary;
+		this.gender = gender;
+	}
+	
+	
+	
+
+}

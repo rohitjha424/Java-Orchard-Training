@@ -1,0 +1,18 @@
+package com.dept.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.dept.entity.Department;
+
+@Service
+public class DepartmentServiceImp implements DepartmentService{
+
+	@Override
+	public List<Department> getDepartmentOfEmployee(Long empId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

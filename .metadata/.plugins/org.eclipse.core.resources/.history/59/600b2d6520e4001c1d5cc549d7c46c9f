@@ -1,0 +1,26 @@
+package com.contact.service;
+
+import java.util.List;
+
+import com.contact.entity.Contact;
+
+
+public class ContactServiceImp implements ContactService{
+
+List<Contact> list = List.of(
+			
+			new Contact(1L, "rohit@gmail.com", "Rohit", 1311L),
+			new Contact(2L, "bhartirana@gmail.com", "Bharti", 1312L),
+			new Contact(3L, "rahul@gmail.com", "Rahul", 1313L)
+		
+			
+			);
+
+	
+	@Override
+	public List<Contact> getContactsOfUser(Long user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

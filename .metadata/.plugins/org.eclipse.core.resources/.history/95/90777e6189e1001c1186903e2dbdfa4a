@@ -1,0 +1,15 @@
+package service;
+
+
+
+import entity.Passenger;
+
+public class PassengerServiceImp implements PassengerService {
+
+	@Override
+	public Passenger savePassenger(Passenger passenger) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

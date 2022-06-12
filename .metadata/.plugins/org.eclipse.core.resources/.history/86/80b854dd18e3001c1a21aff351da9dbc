@@ -1,0 +1,9 @@
+package com.example.user.controller;
+
+
+@RestController
+@RequestMapping("/users")
+@Slf4j
+public class UserController {
+
+}

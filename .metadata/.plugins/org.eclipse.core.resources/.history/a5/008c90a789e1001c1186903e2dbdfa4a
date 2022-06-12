@@ -1,0 +1,11 @@
+package repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import entity.Passenger;
+
+
+
+public interface PassengerRepository extends JpaRepository <Passenger, Integer>{
+
+}

@@ -1,0 +1,12 @@
+package service;
+
+import org.springframework.stereotype.Service;
+
+import entity.Passenger;
+
+@Service
+public interface PassengerService {
+
+	Passenger savePassenger(Passenger passenger);
+
+}

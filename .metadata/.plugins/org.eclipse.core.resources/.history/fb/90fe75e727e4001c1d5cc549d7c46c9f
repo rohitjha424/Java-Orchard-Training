@@ -1,0 +1,8 @@
+package com.contact.controller;
+
+
+@RestController
+public class ContactController {
+	
+
+}

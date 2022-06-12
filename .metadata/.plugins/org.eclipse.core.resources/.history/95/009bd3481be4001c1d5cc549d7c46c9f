@@ -1,0 +1,25 @@
+package com.user.service;
+
+import java.util.List;
+
+import com.user.entity.User;
+
+public class UserServiceImp implements UserService{
+
+	List<User> list = List.of(
+			
+			new User(1311L, "Rohit Kumar Jha", "123456789"),
+			new User(1312L, "bharti singh rana", "23638292"),
+			new User(1313L, "Rahul Kumar", "732267262"),
+			new User(1314L, "Supriya Sahoo", "267281779"),
+			
+			);
+	
+	
+	@Override
+	public User getUser(Long id) {
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.example.department.controller;
+
+
+@RestController
+@RequestMapping("/departments")
+@Slf4j
+public class DepartmentController {
+
+}

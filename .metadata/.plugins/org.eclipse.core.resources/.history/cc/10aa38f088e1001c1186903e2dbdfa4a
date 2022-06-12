@@ -1,0 +1,7 @@
+package service;
+
+import com.springboot.employeeData.app.service.EmployeeService;
+
+public class PassengerServiceImp implements PassengerService {
+
+}

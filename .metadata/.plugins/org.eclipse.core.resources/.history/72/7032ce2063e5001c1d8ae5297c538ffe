@@ -1,0 +1,7 @@
+package com.employee.service;
+
+import com.user.service.UserService;
+
+public class EmployeeServiceImp implements EmployeeService{
+
+}

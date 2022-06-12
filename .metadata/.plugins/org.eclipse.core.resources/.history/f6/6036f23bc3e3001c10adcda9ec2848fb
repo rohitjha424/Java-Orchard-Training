@@ -1,0 +1,8 @@
+package com.example.user.VO;
+
+public class ResponseTemplateVO {
+	
+	 private User user;
+	    private Department department;
+
+}

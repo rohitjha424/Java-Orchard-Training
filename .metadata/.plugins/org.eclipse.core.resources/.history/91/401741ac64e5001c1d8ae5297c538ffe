@@ -1,0 +1,10 @@
+package com.employee.entity;
+
+public class Department {
+	
+	private Long deptId;
+	private String name;
+	private Integer totalNumberofEmployee;
+	
+
+}
